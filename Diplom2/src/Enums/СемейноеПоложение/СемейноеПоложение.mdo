@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7da89a59-5926-4861-b1d6-a9c1c041693b">
+  <producedTypes>
+    <refType typeId="281f3135-efa2-4209-b87f-4762f1871d23" valueTypeId="5b08c443-70c7-48cc-b4f7-61a9b1f60b73"/>
+    <listType typeId="38104429-7065-473c-85ec-9e0eb2f25019" valueTypeId="6a3be662-86aa-44ef-9832-250463b65277"/>
+    <managerType typeId="27667623-dbc8-4466-a038-00f0a1be18fe" valueTypeId="089485e6-48b0-455f-9b65-e2b5eb134b98"/>
+  </producedTypes>
+  <name>СемейноеПоложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семейное положение</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="95109866-91e4-489a-b55e-b53ad8951466">
+    <name>НеЖенат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не женат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4ecdb5d-f882-46f1-a622-84202ade4571">
+    <name>Женат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Женат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6168237-6fd7-48cd-9aad-8b1e04aa15e5">
+    <name>Разведен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разведен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea4664d6-5653-4a16-a767-da54b94a678c">
+    <name>Вдовец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вдовец</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58de320d-7ed2-4c47-966f-b5afa87d03c8">
+    <name>НеЗамужем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не замужем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3be572f8-0f32-4734-bba1-e16601ac84cb">
+    <name>Разведена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разведена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90123847-311f-4fa3-ba85-9b5d9607315d">
+    <name>Вдова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вдова</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

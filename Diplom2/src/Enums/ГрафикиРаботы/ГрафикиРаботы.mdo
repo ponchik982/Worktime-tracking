@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25f8d8f0-aca8-423a-aef1-4fe8d6a17e66">
+  <producedTypes>
+    <refType typeId="66d15f95-f586-4195-90dc-4285d896be72" valueTypeId="b38e24d7-0af7-4c8d-ba97-84815aeb0962"/>
+    <listType typeId="ea6c9761-132b-43bb-a48e-79ebedf1464a" valueTypeId="dfa44745-99be-4a69-b850-8224edbc82d7"/>
+    <managerType typeId="df5d99e5-b4d5-4ab3-8068-505daa4a1bf5" valueTypeId="b3d02600-c987-41ae-b182-2b490e3903fc"/>
+  </producedTypes>
+  <name>ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f4e3b486-a075-4085-a846-6d4571af8263">
+    <name>ЗначениеПеречисления1</name>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9e921f9-bedd-47f0-bc1c-694c250dbcaa">
+  <producedTypes>
+    <objectType typeId="824730d8-d7db-4d5a-8a79-b75dc3669311" valueTypeId="ee049121-e412-484a-8c8b-04572534d593"/>
+    <managerType typeId="22eca375-6598-4f63-9867-d9b359ee88ca" valueTypeId="ea2d60ae-6f1c-4670-aa18-1a21e7cfb28f"/>
+  </producedTypes>
+  <name>РегистрацияПрохода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация прохода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РегистрацияПрохода.Form.Форма</defaultForm>
+  <attributes uuid="d8afe548-b521-462e-b9cd-ef8feb8b504f">
+    <name>ИмяСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя сотрудника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1c788803-10dc-4f4f-bd1d-49eb0b320d59">
+    <name>СтатусПрохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус прохода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b3f1436-a842-437c-85de-25452666f33d">
+    <name>ПоследняяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя карта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7b95a3d8-9e19-4177-8cd7-826bf3cc3f2c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

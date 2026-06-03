@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8d6c350-36db-449f-965a-74c6b452d43b">
+  <producedTypes>
+    <objectType typeId="fc02bdcc-7793-4bca-bc5f-d7094ca841a6" valueTypeId="1660e93d-e943-4062-bdbc-4d16edbfcf45"/>
+    <managerType typeId="efa7975e-8cbe-45a0-ba74-846328b7b01f" valueTypeId="9b664997-d78e-4568-b728-350fc51b68a7"/>
+  </producedTypes>
+  <name>ОтчетПоПроходамПоДаннымСКУД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по проходам по данным СКУД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоПроходамПоДаннымСКУД.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетПоПроходамПоДаннымСКУД.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="714b7eaa-440c-43dd-b206-983ebc5fef93">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="66f29cef-a3d1-4fd9-899a-035bdfbbf8ec">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0aaf0920-a09c-4d2a-beae-b9d5c68d895c">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="aad34660-efb8-46ad-8188-1f16fa823d6a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cc8a385f-917f-4390-ba48-8da89311f7c0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="a17c51f4-1f1b-4d22-990b-38776528d05d">
+    <name>ОсновнаяСхемаКомпоновкиДанныхТабель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных табель</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="52771c22-6987-4bc7-85d4-1402b9106787">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="44b0f043-b97d-478a-b489-a0d05ccc158f">
+    <name>ОсновнаяСхемаКомпоновкиДанныхНаТерритории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных на территории</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

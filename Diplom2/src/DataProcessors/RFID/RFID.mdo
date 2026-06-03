@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f5b8019-88be-41a0-9fae-e3fa10b46999">
+  <producedTypes>
+    <objectType typeId="5e609108-5dc0-4ecd-b81f-4fe22b1af0a4" valueTypeId="0c091674-33e4-4770-80bb-be6a6ec41b81"/>
+    <managerType typeId="9d70e9e9-316f-4576-b0d5-7215be733e19" valueTypeId="df2668b7-5daa-440c-bfa5-67a39855bcb2"/>
+  </producedTypes>
+  <name>RFID</name>
+  <synonym>
+    <key>ru</key>
+    <value>RFID</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.RFID.Form.Форма</defaultForm>
+  <forms uuid="c41394e2-eb1e-4314-b16d-bae19851f72b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

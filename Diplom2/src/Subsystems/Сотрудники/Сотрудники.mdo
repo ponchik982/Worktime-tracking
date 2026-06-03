@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fef078a5-99e7-4c62-8171-49575a73649f">
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Отделы</content>
+  <content>Document.ТабельУчетаРабочегоВремени</content>
+  <content>Report.ОтчетПоПроходамПоДаннымСКУД</content>
+  <content>DataProcessor.RFID</content>
+  <content>DataProcessor.РегистрацияПрохода</content>
+</mdclass:Subsystem>

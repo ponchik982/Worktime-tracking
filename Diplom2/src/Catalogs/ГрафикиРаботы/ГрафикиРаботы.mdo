@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09b173a9-b216-4eb6-97ba-dbc061aa36d8">
+  <producedTypes>
+    <objectType typeId="9fdc924a-cb26-4636-a380-37e324b53af0" valueTypeId="fbfe2de9-51c7-459c-9590-91f9d0da81dc"/>
+    <refType typeId="fa77cd41-1e4c-4b13-b6cc-614ce304ca99" valueTypeId="3ab193e5-d020-4cad-a1a4-4c6a4be1dfb9"/>
+    <selectionType typeId="512d7fd5-b468-4ded-bde8-a176fcf40310" valueTypeId="9835c60d-e3ff-4081-a161-d72b8ba2a9a3"/>
+    <listType typeId="9c89cd69-f000-45b6-a745-f06918253369" valueTypeId="91c4d5c3-1253-40da-b510-1bda8c653a29"/>
+    <managerType typeId="b3df8937-0dbd-4292-92d9-bbaecb4e9a6c" valueTypeId="21e59a0f-dae8-4aa0-bd5e-ed212ffd6372"/>
+  </producedTypes>
+  <name>ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГрафикиРаботы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГрафикиРаботы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3c3480a7-10be-43f0-a152-18a8854a503c">
+    <name>НормаЧасовВДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма часов в день</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ec1b4ed-e716-4f44-9a36-c56ff17bd6b3">
+    <name>НормаДнейВНеделю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма дней в неделю</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f6e27e9f-c3f6-4f67-8780-c2457469cdf1">
+    <producedTypes>
+      <objectType typeId="fdffd98b-785a-4f62-891b-bfef612de609" valueTypeId="2f958f9b-e02a-40fd-95d7-d7ac1658d1d7"/>
+      <rowType typeId="6941d813-afdd-4e2b-bb46-cbf39bb9f26a" valueTypeId="4fe916b9-1823-4131-953d-dcc3f38fc7eb"/>
+    </producedTypes>
+    <name>НормыПоМесяцам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормы по месяцам</value>
+    </synonym>
+    <attributes uuid="59b0b288-80dc-4da5-a7b9-1e18eeed1fed">
+      <name>Год</name>
+      <synonym>
+        <key>ru</key>
+        <value>Год</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="235593bd-7907-4308-ac40-6cc887e5d3aa">
+      <name>Месяц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Месяц</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c73b5dd6-930d-4124-87c8-80789f0457bc">
+      <name>НормаЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Норма часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="31496a2d-5baf-45b0-a0e7-231126dc5639">
+      <name>НормаДней</name>
+      <synonym>
+        <key>ru</key>
+        <value>Норма дней</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

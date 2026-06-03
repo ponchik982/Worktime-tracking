@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e56ee4-0b7e-4be9-aafa-079bf88ebb58">
+  <producedTypes>
+    <objectType typeId="4fdc67af-66d6-482c-9e3a-11f35113bad3" valueTypeId="aef379dd-356d-4ef9-bab3-887de9905ddd"/>
+    <managerType typeId="67e3cc59-2ce3-473d-a07d-3cf9a76db36d" valueTypeId="6e5e7a06-eb53-49ea-8a26-e3dbde3a18a9"/>
+  </producedTypes>
+  <name>ОтработанноеВремя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отработанное время</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтработанноеВремя.Form.ФормаОтчета</defaultForm>
+  <forms uuid="593571b5-8822-4994-9e5b-9f827fec66da">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>
